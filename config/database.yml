@@ -13,8 +13,8 @@ development:
   encoding: utf8
   database: backbone_devise_development
   pool: 5
-  username: joshhuckabee
-  password:
+  username: postgres
+  password: postgres
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,8 +24,8 @@ test:
   encoding: utf8
   database: backbone_devise_test
   pool: 5
-  username: joshhuckabee
-  password:
+  username: postgres
+  password: postgres
 
 production:
   adapter: postgresql
